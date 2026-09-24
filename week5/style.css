@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-style: italic;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 26px;
+    color: darkgreen;
+}
+
+p {
+    font-size: 18px;
+    font-style: normal;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}
+
+.highlight {
+    background-color: yellow;
+    text-decoration: underline;
+}
