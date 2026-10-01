@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    padding: 40px 0;
+    background-color: lightblue;
+}
+
+/* Tablet */
+@media (max-width: 700px) {
+    .box {
+        width: 45%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 500px) {
+    .box {
+        float: none;
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+.clear {
+    clear: both;
+}
