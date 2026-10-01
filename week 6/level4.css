@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Container */
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Three-column layout */
+
+.column {
+    float: left;
+    width: 31.33%;
+
+    margin-right: 3%;
+
+    padding: 25px;
+
+    background-color: white;
+
+    border: 1px solid #ddd;
+
+    min-height: 200px;
+}
+
+/* Remove margin from last column */
+
+.column:last-child {
+    margin-right: 0;
+}
+
+/* Clear the floats */
+
+.clear {
+    clear: both;
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+
+    margin-top: 30px;
+
+    background-color: #222;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}

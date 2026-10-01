@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #444;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Main container */
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Main content using float */
+
+.main-content {
+    float: left;
+    width: 70%;
+    background-color: white;
+    padding: 25px;
+}
+
+/* Sidebar using float */
+
+.sidebar {
+    float: right;
+    width: 27%;
+    background-color: #ddd;
+    padding: 25px;
+}
+
+/* Image floating */
+
+.left-image {
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Service boxes */
+
+.service {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+/* Clear floating elements */
+
+.clear {
+    clear: both;
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
