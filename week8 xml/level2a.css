@@ -1,0 +1,21 @@
+students {
+    display: block;
+    background: lightyellow;
+    padding: 20px;
+    font-family: Arial;
+}
+
+student {
+    display: block;
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid blue;
+}
+
+name, age, course {
+    display: block;
+    color: blue;
+    margin: 8px;
+    font-size: 18px;
+}

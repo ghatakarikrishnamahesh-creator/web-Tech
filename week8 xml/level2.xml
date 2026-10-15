@@ -1,0 +1,9 @@
+
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="level2.css"?>
+
+<student>
+    <name>Rahul</name>
+    <age>20</age>
+    <course>BCA</course>
+</student>

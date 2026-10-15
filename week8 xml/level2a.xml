@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="level2a.css"?>
+
+<students>
+    <student>
+        <name>Rahul</name>
+        <age>20</age>
+        <course>BCA</course>
+    </student>
+
+    <student>
+        <name>Priya</name>
+        <age>21</age>
+        <course>BSc</course>
+    </student>
+</students>
