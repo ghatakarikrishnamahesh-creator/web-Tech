@@ -11,7 +11,7 @@ body {
 /* Header */
 
 header {
-    background-color: #222;
+    background-color: #223;
     color: white;
     text-align: center;
     padding: 25px;
@@ -21,7 +21,7 @@ header {
 
 nav {
     background-color: #444;
-    padding: 15px;
+    padding: 14px;
     text-align: center;
 }
 
