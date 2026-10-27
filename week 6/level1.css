@@ -1,23 +1,37 @@
+
+/* Main page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0c3fc, #8ec5fc);
     margin: 0;
     padding: 30px;
+    min-height: 100vh;
 }
 
+/* Heading */
 h1 {
     text-align: center;
-    color: #333;
+    color: #1e1b4b;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
+/* Main container */
 .container {
     width: 500px;
+    max-width: 90%;
     margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    border: 2px solid #333;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(30, 27, 75, 0.2);
+    box-sizing: border-box;
 }
 
+/* Common box styling */
 .box {
     width: 200px;
     height: 80px;
@@ -27,12 +41,22 @@ h1 {
     color: white;
     font-weight: bold;
     text-align: center;
+    line-height: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25);
 }
 
 /* Static positioning */
 .static-box {
     position: static;
-    background-color: #3498db;
+    background: linear-gradient(135deg, #06b6d4, #2563eb);
 }
 
 /* Relative positioning */
@@ -40,5 +64,5 @@ h1 {
     position: relative;
     top: 30px;
     left: 50px;
-    background-color: #e74c3c;
+    background: linear-gradient(135deg, #f97316, #db2777);
 }
