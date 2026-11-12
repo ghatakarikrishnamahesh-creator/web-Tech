@@ -1,0 +1,49 @@
+
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+<h2>Student Registration</h2>
+
+<form id="form">
+
+    Name:
+    <input type="text" id="name">
+    <br><br>
+
+    Email:
+    <input type="text" id="email">
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<p id="result"></p>
+
+<script>
+
+document.getElementById("form").onsubmit = function(e) {
+
+    e.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+
+    if (name == "" || email == "") {
+        document.getElementById("result").innerHTML =
+        "Please fill all fields";
+    }
+    else {
+        document.getElementById("result").innerHTML =
+        "Form Submitted Successfully!";
+    }
+
+};
+
+</script>
+
+</body>
+</html>

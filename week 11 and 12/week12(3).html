@@ -1,0 +1,34 @@
+
+<html>
+<head>
+    <title>Alert and Prompt</title>
+</head>
+<body>
+
+<h2>JavaScript Alert and Prompt</h2>
+
+<button onclick="showAlert()">Alert</button>
+
+<button onclick="showPrompt()">Prompt</button>
+
+<script>
+
+function showAlert() {
+    alert("Welcome to JavaScript!");
+}
+
+function showPrompt() {
+    let name = prompt("Enter your name");
+
+    if (name != null && name != "") {
+        alert("Hello " + name);
+    }
+    else {
+        alert("Please enter your name");
+    }
+}
+
+</script>
+
+</body>
+</html>

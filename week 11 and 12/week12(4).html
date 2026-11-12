@@ -1,0 +1,59 @@
+
+<html>
+<head>
+    <title>Dynamic Popup</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        #popup {
+            display: none;
+            background: lightblue;
+            padding: 20px;
+            margin: 20px auto;
+            width: 250px;
+        }
+
+        button {
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Dynamic Pop-up</h2>
+
+<button onclick="showPopup()">Click Me</button>
+
+<div id="popup">
+    <h3 id="message"></h3>
+    <button onclick="closePopup()">Close</button>
+</div>
+
+<script>
+
+function showPopup() {
+
+    let name = prompt("Enter your name");
+
+    if(name != null && name != "") {
+        document.getElementById("message").innerHTML =
+        "Welcome " + name;
+
+        document.getElementById("popup").style.display = "block";
+    }
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
